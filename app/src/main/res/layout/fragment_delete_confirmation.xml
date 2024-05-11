@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:background="#DADADA"
+    android:id="@+id/fragment_container">
+
+    <TextView
+        android:id="@+id/textViewConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to delete this image?"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/buttonDelete"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Delete"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_background"/>
+
+    <TextView
+        android:id="@+id/buttonCancel"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:paddingStart="8dp"
+        android:gravity="center"
+        android:paddingEnd="8dp"
+        android:text="Cancel"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="70dp"
+        android:textSize="15dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/button_background"/>
+</FrameLayout>

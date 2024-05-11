@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <!-- Base application theme for night. -->
+    <style name="Base.Theme.ExpressionPhotoManager" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+    </style>
+
+    <style name="Theme.ExpressionPhotoManager" parent="Base.Theme.ExpressionPhotoManager">
+        <item name="android:buttonStyle">@style/ButtonStyle.ExpressionPhotoManager</item>
+    </style>
+
+    <!-- Button style for dark theme -->
+    <style name="ButtonStyle.ExpressionPhotoManager" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/button_background</item> <!-- Adjust if needed for dark mode -->
+    </style>
+</resources>
